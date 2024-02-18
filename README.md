@@ -1,21 +1,25 @@
 # craps-sim
+
 Simulate the best way to bet in craps.
 
-Craps Simulation
-Overview
+## Overview
+
 This craps simulation is designed to model the game of craps with a focus on betting strategies, specifically implementing the Martingale betting strategy for the pass line bet. The simulation runs a user-defined number of bets per day over a specified number of days, tracks wins and losses, and calculates the largest pass line bet needed due to consecutive losses.
 
-Features
-Martingale Strategy Implementation: Doubles the pass line bet after a loss and resets to the original bet after a win.
-Odds Bet Calculation: Calculates the odds bet based on the point, adhering to craps rules (3x for 4 and 10, 4x for 5 and 9, and 5x for 6 and 8).
-Bankroll Management: Ensures that bets do not exceed the available bankroll and tracks the largest pass line bet required.
-Simulation Results: Provides detailed outcomes, including the final bankroll, total wins and losses, total dice rolls, and the largest pass line bet made.
-Usage
+## Features
+
+- **Martingale Strategy Implementation**: Doubles the pass line bet after a loss and resets to the original bet after a win.
+- **Odds Bet Calculation**: Calculates the odds bet based on the point, adhering to craps rules (3x for 4 and 10, 4x for 5 and 9, and 5x for 6 and 8).
+- **Bankroll Management**: Ensures that bets do not exceed the available bankroll and tracks the largest pass line bet required.
+- **Simulation Results**: Provides detailed outcomes, including the final bankroll, total wins and losses, total dice rolls, and the largest pass line bet made.
+
+## Usage
+
 To run the simulation, ensure you have Python installed on your system. Clone this repository and navigate to the project directory. Run the simulation script with:
 
-bash
-Copy code
-python craps-simulation.py
+```bash
+python craps_simulation.py
+
 Follow the on-screen prompts to input the number of bets per day, the number of days you want to run the simulation, and your initial bankroll and pass line bet amount.
 
 Customization
